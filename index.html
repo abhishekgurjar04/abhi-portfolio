@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1e1b4b" />
+    <title>Abhishek Gurjar | Java Backend Developer</title>
+    <meta
+      name="description"
+      content="Abhishek Gurjar is a computer science undergraduate in Jaipur building Java backends with Spring Boot, REST APIs, MySQL and AWS. Also a 5-star programming tutor."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Abhishek Gurjar | Java Backend Developer" />
+    <meta property="og:description" content="Java backend developer with hands-on project experience in Spring Boot, REST APIs, MySQL and AWS. Also a 5-star programming tutor." />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="./media/ico-img.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Abhishek Gurjar",
+        "jobTitle": "Java Backend Developer",
+        "address": { "@type": "PostalAddress", "addressLocality": "Jaipur", "addressRegion": "Rajasthan", "addressCountry": "IN" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Jaipur Engineering College and Research Center" },
+        "knowsAbout": ["Java", "Spring Boot", "REST APIs", "Microservices", "MySQL", "AWS"],
+        "sameAs": [
+          "https://www.linkedin.com/in/abhishekgurjar04/",
+          "https://github.com/abhishekgurjar04",
+          "https://www.youtube.com/@abhishekgurjar_04",
+          "https://www.superprof.co.in/learn-java-programming-language-with-oop-concepts-beginner-advanced.html"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <div class="wrap">
+      <header class="topbar">
+        <a class="brand" href="#top">Abhishek Gurjar</a>
+        <nav aria-label="Main">
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#tutoring">Tutoring</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="main" tabindex="-1">
+        <!-- Hero -->
+        <section class="hero" id="top">
+          <div class="hero-grid" id="hero-grid">
+            <div class="hero-text">
+              <p class="status"><span class="dot" aria-hidden="true"></span>Open to entry-level Java backend roles</p>
+              <h1>Java backend developer with <span class="hl">hands-on project experience</span>.</h1>
+              <p class="lead">
+                I'm a computer science undergraduate in Jaipur. I build real projects, from a Spring
+                Boot and Stripe payment integration to Java desktop and login apps. I also teach C,
+                C++ and Java as a 5-star Superprof tutor.
+              </p>
+              <div class="cta-row">
+                <a class="btn" href="#projects">See my projects</a>
+                <a class="btn ghost" href="#tutoring">Book a free demo lesson</a>
+              </div>
+            </div>
+            <!-- Optional photo: media/profile.png. If the file is missing, this image hides itself. -->
+            <figure class="hero-photo" id="hero-photo">
+              <img src="./media/profile.png" alt="Portrait of Abhishek Gurjar" width="400" height="500" fetchpriority="high" decoding="async" />
+            </figure>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" aria-labelledby="exp-h">
+          <h2 id="exp-h">Experience</h2>
+          <ol class="timeline">
+            <li class="panel">
+              <div class="role-head">
+                <h3>Java backend trainee, Hulkhire</h3>
+                <p class="when"><time datetime="2026-07">Jul 2026</time> to <time datetime="2026-08">Aug 2026</time></p>
+              </div>
+              <ul>
+                <li>
+                  Worked with Java, Spring Boot and REST APIs on microservices-based backend
+                  applications.
+                </li>
+                <li>
+                  Contributed to a Stripe payment-integration system split into a Validation service
+                  and a Stripe Provider service. My work covered request verification, field
+                  validation, duplicate transaction-reference checks, service-to-service calls and
+                  error handling.
+                </li>
+                <li>
+                  Practised AWS deployment and configuration with EC2, RDS, Secrets Manager and IAM.
+                </li>
+              </ul>
+            </li>
+            <li class="panel">
+              <div class="role-head">
+                <h3>Freelance programming tutor, Superprof</h3>
+                <p class="when"><time datetime="2025-12">Dec 2025</time> to <time datetime="2026-02">Feb 2026</time></p>
+              </div>
+              <ul>
+                <li>
+                  Taught C, C++, Java and object-oriented programming, adapting explanations to each
+                  student.
+                </li>
+                <li>
+                  Wrote practice exercises on programming fundamentals, OOP, data structures and
+                  algorithms, and DBMS.
+                </li>
+                <li>Kept a 5-star rating across tutoring sessions.</li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" aria-labelledby="proj-h">
+          <h2 id="proj-h">Projects</h2>
+
+          <article class="panel feature">
+            <h3>Microservices-based payment integration (Stripe)</h3>
+            <p>
+              A two-service flow. The Validation service checks every incoming payment request
+              before the Stripe Provider service is allowed to talk to Stripe.
+            </p>
+
+            <figure class="diagram">
+              <div class="diagram-scroll">
+                <svg viewBox="0 0 740 250" role="img" aria-labelledby="diag-t diag-d">
+                  <title id="diag-t">Payment request flow</title>
+                  <desc id="diag-d">
+                    A client sends a request to the Validation service, which checks the signature,
+                    fields and duplicates, stores data in MySQL on RDS, then calls the Stripe
+                    Provider service behind a circuit breaker, which calls the Stripe API.
+                  </desc>
+                  <defs>
+                    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                      <path d="M0 0L10 5L0 10z" fill="currentColor" />
+                    </marker>
+                  </defs>
+                  <g class="box">
+                    <rect x="8" y="80" width="110" height="60" />
+                    <rect x="170" y="50" width="190" height="120" class="main-box" />
+                    <rect x="420" y="80" width="150" height="60" />
+                    <rect x="630" y="80" width="100" height="60" />
+                    <rect x="195" y="200" width="140" height="44" />
+                  </g>
+                  <g class="label" text-anchor="middle">
+                    <text x="63" y="115">Client</text>
+                    <text x="265" y="76" class="strong">Validation service</text>
+                    <text x="265" y="100" class="small">HMAC-SHA256 check</text>
+                    <text x="265" y="120" class="small">Field validation</text>
+                    <text x="265" y="140" class="small">Duplicate reference check</text>
+                    <text x="495" y="106" class="strong">Stripe Provider</text>
+                    <text x="495" y="126" class="small">Circuit breaker</text>
+                    <text x="680" y="115">Stripe API</text>
+                    <text x="265" y="227" class="small">MySQL on RDS (JPA)</text>
+                  </g>
+                  <g class="arrows" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="118" y1="110" x2="168" y2="110" marker-end="url(#arrow)" />
+                    <line x1="360" y1="110" x2="418" y2="110" marker-end="url(#arrow)" />
+                    <line x1="570" y1="110" x2="628" y2="110" marker-end="url(#arrow)" />
+                    <line x1="265" y1="170" x2="265" y2="198" marker-end="url(#arrow)" />
+                  </g>
+                </svg>
+              </div>
+              <figcaption>Request flow between the two services and the database.</figcaption>
+            </figure>
+
+            <ul>
+              <li>
+                Implemented filter-level HMAC-SHA256 verification from the request data and a shared
+                secret, so unsigned or altered requests are rejected before any business logic runs.
+              </li>
+              <li>
+                Added Spring Validation field checks and duplicate transaction-reference checks to
+                stop bad and repeated payments.
+              </li>
+              <li>
+                Connected the services with REST APIs and Spring RestClient. Applied the circuit
+                breaker pattern and handled failures from the downstream service and the Stripe API.
+              </li>
+              <li>
+                Stored data with Spring Data JPA and MySQL. Used AWS EC2, RDS, Secrets Manager and
+                IAM for deployment and configuration.
+              </li>
+            </ul>
+            <p class="tags" aria-label="Technologies">
+              <span>Java</span><span>Spring Boot</span><span>Spring Validation</span><span>Spring Data JPA</span><span>MySQL</span><span>AWS</span><span>Stripe API</span>
+            </p>
+          </article>
+
+          <div class="two-col">
+            <article class="panel">
+              <h3>YouTube video downloader</h3>
+              <p>
+                A Java Swing desktop app that runs yt-dlp through ProcessBuilder. Downloads run
+                asynchronously, so the interface stays responsive during long operations.
+              </p>
+              <p class="tags"><span>Java Swing</span><span>ProcessBuilder</span><span>yt-dlp</span></p>
+            </article>
+            <article class="panel">
+              <h3>Java login and authentication system</h3>
+              <p>
+                Login and registration backed by MySQL over JDBC. It validates input and uses
+                parameterised SQL queries to reduce SQL-injection risk.
+              </p>
+              <p class="tags"><span>Java</span><span>JDBC</span><span>MySQL</span></p>
+            </article>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" aria-labelledby="skills-h">
+          <h2 id="skills-h">Skills</h2>
+          <dl class="panel skill-list">
+            <div><dt>Languages</dt><dd><ul class="chips"><li>Java</li><li>C</li><li>C++</li></ul></dd></div>
+            <div><dt>Backend</dt><dd><ul class="chips"><li>Spring Boot</li><li>Spring Security</li><li>Spring Validation</li><li>REST APIs</li><li>Spring RestClient</li><li>Microservices</li></ul></dd></div>
+            <div><dt>Database</dt><dd><ul class="chips"><li>MySQL</li><li>JDBC</li><li>Spring Data JPA</li></ul></dd></div>
+            <div><dt>Cloud and integration</dt><dd><ul class="chips"><li>AWS EC2</li><li>Amazon RDS</li><li>AWS IAM</li><li>AWS Secrets Manager</li><li>Stripe API</li></ul></dd></div>
+            <div><dt>Security and design</dt><dd><ul class="chips"><li>HMAC-SHA256</li><li>Circuit breaker</li><li>Design patterns</li></ul></dd></div>
+            <div><dt>Tools</dt><dd><ul class="chips"><li>Git</li><li>Bitbucket</li><li>Sourcetree</li><li>Jira</li><li>Postman</li></ul></dd></div>
+          </dl>
+        </section>
+
+        <!-- Education and certifications -->
+        <section id="education" aria-labelledby="cred-h">
+          <h2 id="cred-h">Education and certifications</h2>
+          <div class="two-col">
+            <div class="panel">
+              <h3>B.Tech, Computer Science and Engineering</h3>
+              <p>Jaipur Engineering College and Research Center, 2023 to present.</p>
+              <p class="muted">Coursework: DBMS, object-oriented programming, SQL.</p>
+            </div>
+            <div class="panel">
+              <h3>Certifications</h3>
+              <ul>
+                <li>Java, HackerRank (2026)</li>
+                <li>C and C++ language, Coding Seekho (2024)</li>
+                <li>5-star rating for programming tutoring, Superprof</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Tutoring -->
+        <section id="tutoring" aria-labelledby="tutor-h">
+          <h2 id="tutor-h">Learn C, C++ or Java with me</h2>
+          <div class="tutor">
+            <figure class="photo">
+              <img
+                src="./media/duringcls.png"
+                alt="Abhishek teaching a programming class"
+                width="480"
+                height="360"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>During a class</figcaption>
+            </figure>
+            <div class="panel">
+              <h3>Book a free demo lesson</h3>
+              <p class="muted">The demo lesson is free, and my Superprof tutoring is rated 5 stars. All fields are required. I will contact you on WhatsApp or phone to fix a time.</p>
+
+              <form id="demo-form" action="https://formsubmit.co/bf36a6c6e58fccd892fd11d268aef954" method="POST">
+                <div class="form-grid">
+                  <div class="field">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-err" />
+                    <p class="error" id="name-err"></p>
+                  </div>
+                  <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="email" inputmode="email" required aria-describedby="email-err" />
+                    <p class="error" id="email-err"></p>
+                  </div>
+                  <div class="field field-wide">
+                    <label for="phone">WhatsApp or phone number</label>
+                    <div class="phone-row">
+                      <label for="country" class="sr-only">Country</label>
+                      <select id="country" name="country" autocomplete="country">
+                        <option value="IN" selected>India (+91)</option>
+                      </select>
+                      <input type="tel" id="phone" name="phone" autocomplete="tel-national" inputmode="tel" maxlength="20" placeholder="10 digits" required aria-describedby="phone-err" />
+                    </div>
+                    <p class="error" id="phone-err"></p>
+                  </div>
+                  <div class="field field-wide">
+                    <label for="subject">Subject you want to learn</label>
+                    <select id="subject" name="subject" required aria-describedby="subject-err">
+                      <option value="" selected disabled>Choose a subject</option>
+                      <option value="C">C</option>
+                      <option value="C++">C++</option>
+                      <option value="Java">Java</option>
+                    </select>
+                    <p class="error" id="subject-err"></p>
+                  </div>
+                </div>
+                <!-- Spam trap: real visitors never see or fill this -->
+                <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_subject" value="Booking for a free demo class" />
+                <div class="form-actions">
+                  <button class="btn" type="submit">Request free demo</button>
+                  <p id="form-status" class="status-msg" role="status" aria-live="polite"></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" aria-labelledby="contact-h">
+          <h2 id="contact-h">Contact</h2>
+          <p class="lead">
+            Hiring for a Java backend role, or want a simple website for your business? Write to me.
+          </p>
+          <ul class="socials">
+            <li><a class="btn whatsapp" href="https://wa.me/919828468345?text=Hi%20Abhishek%2C%20I%20saw%20your%20portfolio." target="_blank" rel="noopener">Chat on WhatsApp</a></li>
+            <li><a class="btn" href="mailto:abhishekgurjar781782@gmail.com">Email me</a></li>
+            <li><a class="btn ghost" href="https://www.youtube.com/@abhishekgurjar_04" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a class="btn ghost" href="https://www.linkedin.com/in/abhishekgurjar04/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a class="btn ghost" href="https://github.com/abhishekgurjar04" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a class="btn ghost" href="https://www.superprof.co.in/learn-java-programming-language-with-oop-concepts-beginner-advanced.html" target="_blank" rel="noopener">Superprof</a></li>
+          </ul>
+        </section>
+      </main>
+
+      <footer><div class="wrap">&copy; <span id="year">2026</span> Abhishek Gurjar. Jaipur, Rajasthan.</div></footer>
+    </div>
+  </body>
+</html>
